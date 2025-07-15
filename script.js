@@ -64,10 +64,6 @@ console.log(`User name is ${user.name_is} and his age is ${user.age} is login ${
 
 
 
-
-
-
-
 // async js coding
 
 // var blob = await fetch('https://randomuser.me/api/');
