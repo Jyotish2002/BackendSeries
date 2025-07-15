@@ -57,6 +57,7 @@ var user = {
     login: true
 
 }
+
 Object.freeze(user) //---> if we freeze the age of user then age will be freeze and it will not change anymore
 // user.age=21;
 
@@ -79,4 +80,6 @@ async function ab() {
 ab();
 let a = ab();
 // console.log(typeof(a));
+
 // console.log(11+11+10);
+
