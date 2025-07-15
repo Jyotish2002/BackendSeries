@@ -76,7 +76,7 @@ async function ab() {
     console.log(ans.results[0].name);
     console.log('I am third');
 }
-
 ab();
-
-
+let a = ab();
+// console.log(typeof(a));
+// console.log(11+11+10);
