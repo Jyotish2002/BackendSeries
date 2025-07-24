@@ -10,3 +10,10 @@ engine ke c++ modules ke sath ek server create kraga
 
 
 npm init ---> package.json file create hoti hai--->lekha jokha of the project
+
+//Install-> npm installl package_name
+//Uninstall-> npm uninstall package_name
+//installing particular version-> npm install package_name@version_number
+
+//dependencies-> package.json mei likha hota hai
+//devDependencies-> development mei use hota hai

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "02_script.js",
   "scripts": {
+    "start":"node ./03_Server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -10,11 +11,17 @@
     "url": "git+https://github.com/Jyotish2002/BackendSeries.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Developer Jyotish",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jyotish2002/BackendSeries/issues"
   },
   "homepage": "https://github.com/Jyotish2002/BackendSeries#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
