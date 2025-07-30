@@ -6,6 +6,7 @@ const app = express();
 // This middleware will log every request made to the server
 app.use((req,res,next)=>{
     console.log("Middleware executed");
+    
     next();
 });
 //Route to handle GET requests to the root URL
