@@ -27,3 +27,17 @@ framework --> where we have to follow the flow
 ## MiddleWares
 Jab bhi server request accept krta hai waha se route ke bich pahuchna tak
 agar app us request ko bech me rokta ho and kuch perform krta ho to ye element middleware kehlata hai
+
+## Session cookie
+hum log kcuh vi data frontend par browser par rakh skta ha and 
+jab bhi app request backend par kroge we par saved kr dega
+
+## Dynamic Routes
+Hum log kai baar kuch routes dekhte hai unmei sirf ek hi hissa change hota ha
+/author/harsh
+/author/Jyotish
+
+/profile/Jyotish
+
+First go to browser then enter the url you want then create that and then send response in that
+To make it dynamic use profile/:name
