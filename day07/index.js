@@ -27,16 +27,21 @@ app.post('/create',(req,res)=>{
 })
 
 app.get('/read/:filename',(req,res)=>{
-    fs.readFile(`./files/${req.params.filename}`,(err,data)=>{
-        if(err){
-            console.log(err);
-        }
-        else{
-            res.render('read', {filename: req.params.filename, content: data});
-        }
+    fs.readFile(`./files/${req.params.filename}`,"utf-8",(err,data)=>{
+       res.render("read",{data:data,filename:req.params.filename});
     })
 })
 
+
+app.get('/edit/:filename',(req,res)=>{
+    res.render('edit', {filename:req.params.filename});
+})
+
+app.post('/edit',(req,res)=>{
+    fs.rename(`./files/${req.body.previous}`,`./files/${req.body.New}`,(err)=>{
+        res.redirect("/");
+    })
+})
 
 app.listen(3000,()=>{
     console.log('Server is running')
