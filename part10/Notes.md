@@ -67,8 +67,8 @@ const User = mongoose.model('User', UserSchema);
 
 // 3. Create a document (record)
 const newUser = new User({
-  name: 'John Doe',
-  email: 'john@example.com',
+  name: 'Jyotish Yadav',
+  email: 'jyotishyadav@gmail.com',
 });
 
 newUser.save(); // Save the document to the collection
