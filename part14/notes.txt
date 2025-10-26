@@ -1,0 +1,11 @@
+authentication and authorization
+user ko profile dena se pahela ye check krna hota hai ki user hai kaun----> authentication
+
+To see the level of user that whether it is admin or normal user that is---> authorization
+
+Cookies and session will save for data for further operations
+
+sabse pahela humein kuch sikhni hai alag alag
+i) Cookies kaisa use krta hai
+ii) bcrypt kaisa use krta hai for password encryption and decryption
+iii) jwt kya hai and how to use it to store 
