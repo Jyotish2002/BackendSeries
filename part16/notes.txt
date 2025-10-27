@@ -1,0 +1,2 @@
+MongoDB ---> store data,information
+store about the data of user
